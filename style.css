@@ -14,31 +14,40 @@ button {
     font-size: 1.2rem;
     border-radius: 4px;
     cursor: pointer;
+    width: 500px;
+    margin:auto;
+}
+
+button:hover {
+    background-color: #4b4a4a;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
     background-color: rgb(24, 44, 61);
     padding: 40px;
     width: 1550px;
+    height: 950px;
     margin:auto;
     display: flex;
     flex-direction: column;
 }
 
 .traffic-light {
-    background-color: #daaf06;
+    background-color: #0f0f0f;
     width: 400px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     margin:auto;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
     border-radius: 10px;
 }
 
 .panel {
-    background-color: #ffcc00;
+    background-color: #1f1e1c;
     margin: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
