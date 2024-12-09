@@ -1,0 +1,77 @@
+body {
+    background-image: url("https://as1.ftcdn.net/v2/jpg/08/73/98/92/1000_F_873989210_zyqg7eruQt0gfb0UL0rWoOjXU9yhyYjn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #333; 
+  }
+
+button {
+    background-color: #333;
+    border: none;
+    color:rgb(255, 255, 255);
+    padding: 15px 32px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: rgb(24, 44, 61);
+    padding: 40px;
+    width: 1550px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.traffic-light {
+    background-color: #daaf06;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.panel {
+    background-color: #ffcc00;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.light {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    border-color: black;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 50%;
+}
+.light-off {
+    background-color: #3f3f3f;
+}
+
+.red-light {
+    background-color: #680d0d;
+}
+
+.yellow-light {
+    background-color: #685f0d;
+}
+
+.green-light {
+    background-color: #0d6821;
+}
